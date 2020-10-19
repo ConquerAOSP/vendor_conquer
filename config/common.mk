@@ -98,6 +98,9 @@ DEVICE_PACKAGE_OVERLAYS += vendor/conquer/overlay/common
 # Telephony
 include vendor/conquer/config/telephony.mk
 
+# Include ConquerUI
+include vendor/conquerui/config.mk
+
 # Versioning
 include vendor/conquer/config/version.mk
 
