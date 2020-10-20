@@ -1,7 +1,7 @@
 # Allow vendor/fextras to override any property by setting it first
 $(call inherit-product-if-exists, vendor/fextras/Fextras.mk)
 
-PRODUCT_BRAND ?= ConquerOS
+PRODUCT_BRAND ?= ConquerAOSP
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
